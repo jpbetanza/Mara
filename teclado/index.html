@@ -71,10 +71,10 @@
             </div>
         </div>
     </div>
-
+    <a style="position: absolute; bottom: 100; left: 100;" class="button" onclick="limpe()" href="../Calibrador/index.html">Calibrar</a>
 <script>
-    window.onbeforeunload = () => {
-        localStorage.clear();
+    function limpe(){
+        webgazer.clearData();
     }
 </script>
 
