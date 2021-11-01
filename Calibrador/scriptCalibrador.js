@@ -27,7 +27,7 @@ localStorage.setItem('PosX', 25)
 
 function cliquei() {
   counter++;
-  if (counter == 3) {
+  if (counter == 4) {
     counter = 0;
     if(positionCounter<8){
     positionCounter++;
