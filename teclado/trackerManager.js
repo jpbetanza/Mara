@@ -1,4 +1,4 @@
-window.saveDataAcrossSessions = false //salva a calibração mesmo se fechar o navegador
+window.saveDataAcrossSessions = true //salva a calibração mesmo se fechar o navegador
 //variaveis de tempo necessario para olhar um quadro e tempo olhado
 const DELAY = 1500; //tempo olhando para algo para clicar
 let tempoOlhando = Number.POSITIVE_INFINITY //variavel do tempo (cronometro)

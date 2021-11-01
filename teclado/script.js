@@ -19,7 +19,7 @@ var digitos = [
 function estadoInicial() {
     for (i = 1; i < 10; i++) {
         if (i == 5) {} else {
-            document.getElementById('' + i + '').src = './src/Quadros/quadro' + i + '.png'
+            document.getElementById('' + i + '').src = '../src/Quadros/quadro' + i + '.png'
             document.getElementById('' + i + '').setAttribute('onclick', 'selecaoDeQuadro(' + i + ')')
         }
     }
@@ -30,9 +30,9 @@ function selecaoDeQuadro(a) {
         case 1:
             for (i = 1; i < 10; i++) {
                 if (i == 4 || i == 6) {
-                    document.getElementById('' + i + '').src = './src/white.png'
+                    document.getElementById('' + i + '').src = '../src/white.png'
                 } else if (i == 5) {} else {
-                    document.getElementById('' + i + '').src = './src/LetrasAF/' + i + '.png'
+                    document.getElementById('' + i + '').src = '../src/LetrasAF/' + i + '.png'
                     document.getElementById('' + i + '').setAttribute('onclick', 'selecaoDeLetra(' + 1 + ',' + i + ')')
                 }
             }
@@ -40,9 +40,9 @@ function selecaoDeQuadro(a) {
         case 2:
             for (i = 1; i < 10; i++) {
                 if (i == 4 || i == 6) {
-                    document.getElementById('' + i + '').src = './src/white.png'
+                    document.getElementById('' + i + '').src = '../src/white.png'
                 } else if (i == 5) {} else {
-                    document.getElementById('' + i + '').src = './src/LetrasGL/' + i + '.png'
+                    document.getElementById('' + i + '').src = '../src/LetrasGL/' + i + '.png'
                     document.getElementById('' + i + '').setAttribute('onclick', 'selecaoDeLetra(' + 2 + ',' + i + ')')
                 }
             }
@@ -50,9 +50,9 @@ function selecaoDeQuadro(a) {
         case 3:
             for (i = 1; i < 10; i++) {
                 if (i == 4 || i == 6) {
-                    document.getElementById('' + i + '').src = './src/white.png'
+                    document.getElementById('' + i + '').src = '../src/white.png'
                 } else if (i == 5) {} else {
-                    document.getElementById('' + i + '').src = './src/LetrasMR/' + i + '.png'
+                    document.getElementById('' + i + '').src = '../src/LetrasMR/' + i + '.png'
                     document.getElementById('' + i + '').setAttribute('onclick', 'selecaoDeLetra(' + 3 + ',' + i + ')')
                 }
             }
@@ -75,9 +75,9 @@ function selecaoDeQuadro(a) {
         case 7:
             for (i = 1; i < 10; i++) {
                 if (i == 4 || i == 6) {
-                    document.getElementById('' + i + '').src = './src/white.png'
+                    document.getElementById('' + i + '').src = '../src/white.png'
                 } else if (i == 5) {} else {
-                    document.getElementById('' + i + '').src = './src/LetrasSX/' + i + '.png'
+                    document.getElementById('' + i + '').src = '../src/LetrasSX/' + i + '.png'
                     document.getElementById('' + i + '').setAttribute('onclick', 'selecaoDeLetra(' + 7 + ',' + i + ')')
                 }
             }
@@ -85,9 +85,9 @@ function selecaoDeQuadro(a) {
         case 8:
             for (i = 1; i < 10; i++) {
                 if (i == 4 || i == 6) {
-                    document.getElementById('' + i + '').src = './src/white.png'
+                    document.getElementById('' + i + '').src = '../src/white.png'
                 } else if (i == 5) {} else {
-                    document.getElementById('' + i + '').src = './src/LetrasY4/' + i + '.png'
+                    document.getElementById('' + i + '').src = '../src/LetrasY4/' + i + '.png'
                     document.getElementById('' + i + '').setAttribute('onclick', 'selecaoDeLetra(' + 8 + ',' + i + ')')
                 }
             }
@@ -95,9 +95,9 @@ function selecaoDeQuadro(a) {
         case 9:
             for (i = 1; i < 10; i++) {
                 if (i == 4 || i == 6) {
-                    document.getElementById('' + i + '').src = './src/white.png'
+                    document.getElementById('' + i + '').src = '../src/white.png'
                 } else if (i == 5) {} else {
-                    document.getElementById('' + i + '').src = './src/Letras50/' + i + '.png'
+                    document.getElementById('' + i + '').src = '../src/Letras50/' + i + '.png'
                     document.getElementById('' + i + '').setAttribute('onclick', 'selecaoDeLetra(' + 9 + ',' + i + ')')
                 }
             }
