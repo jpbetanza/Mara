@@ -62,14 +62,6 @@ webgazer.setGazeListener(function(data, elapsedTime) {
     else if(pickup[1]['nodeName']=='IMG'){
         quadro = pickup[1]
     }
-    else if(pickup[0]['nodeName']=='TEXTAREA'){
-        quadro = pickup[0]
-    }
-    else if(pickup[1]['nodeName']=='TEXTAREA'){
-        quadro = pickup[1]
-    }
-
-
 }).begin();
 
 webgazer.showVideoPreview(false) //substitua por "true" se quiser ver a camera

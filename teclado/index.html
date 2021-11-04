@@ -11,6 +11,9 @@
     <script src="trackerManager.js"></script>    
     <title>Teclado ELA</title>
     <style>
+        body{
+            background-color: black;
+        }
         .container-fluid{
             height: 100vh;
         }
@@ -21,9 +24,7 @@
         img{
             height: 30vh;
             width: 50vh;
-            border-style: solid;
-            border-width: 5px;
-            border-color: red;
+            border-radius: 30px;
         }
         .tabela{
             height: 100vh;
@@ -37,37 +38,37 @@
     <div class="container-fluid m-0 text-center tabela">
         <div class="row">
             <div class="col text-center">
-                <img onclick="selecaoDeQuadro(1)" id='1' src='../src/quadros/quadro1.png'></img>
+                <img onclick="selecaoDeQuadro(1)" id='1' src='../src/quadros/board1.png'></img>
             </div>
             <div class="col">
-                <img onclick="selecaoDeQuadro(2)" id='2' src='../src/quadros/quadro2.png'></img>
+                <img onclick="selecaoDeQuadro(2)" id='2' src='../src/quadros/board2.png'></img>
             </div>
             <div class="col">
-                <img onclick="selecaoDeQuadro(3)" id='3' src='../src/quadros/quadro3.png'></img>
+                <img onclick="selecaoDeQuadro(3)" id='3' src='../src/quadros/board3.png'></img>
             </div>
         </div>
         <div class="row align-items-center">
             <div class="col">
-                <img onclick="selecaoDeQuadro(4)" id='4' src='../src/quadros/quadro4.png'></img>
+                <img onclick="selecaoDeQuadro(4)" id='4' src='../src/quadros/board4.png'></img>
             </div>
             <div class="col">
                 <div class="input-group">
-                    <textarea id='textbox' onclick="estadoInicial()" class="form-control" aria-label="With textarea"></textarea>
+                    <textarea id='textbox' class="form-control" aria-label="With textarea"></textarea>
                 </div>
             </div>
             <div class="col">
-                <img onclick="selecaoDeQuadro(6)" id='6' src='../src/quadros/quadro6.png'></img>
+                <img onclick="say()" id='6' src='../src/quadros/board6.png'></img>
             </div>
         </div>
         <div class="row align-items-center">
             <div class="col">
-                <img onclick="selecaoDeQuadro(7)" id='7' src='../src/quadros/quadro7.png'></img>
+                <img onclick="selecaoDeQuadro(7)" id='7' src='../src/quadros/board7.png'></img>
             </div>
             <div class="col">
-                <img onclick="selecaoDeQuadro(8)" id='8' src='../src/quadros/quadro8.png'></img>
+                <img onclick="selecaoDeQuadro(8)" id='8' src='../src/quadros/board8.png'></img>
             </div>
             <div class="col">
-                <img onclick="selecaoDeQuadro(9)" id='9' src='../src/quadros/quadro9.png'></img>
+                <img onclick="selecaoDeQuadro(9)" id='9' src='../src/quadros/board9.png'></img>
             </div>
         </div>
     </div>
